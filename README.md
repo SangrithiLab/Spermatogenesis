@@ -1,7 +1,7 @@
 ### Single-Cell RNA Sequencing of the *Cynomolgus* Macaque Testis Reveals Conserved Transcriptional Profiles during Mammalian Spermatogenesis
 
 ### Graphical Abstract
-<img src="GraphicalAbstract.png" width="500">
+<img src="./Images/GraphicalAbstract.png" width=500>
 
 ### Data availability and code
 We utilized testis-specific scRNA-Seq data generated from three species (macaque, human, and mouse), and the raw data is publicly available.
