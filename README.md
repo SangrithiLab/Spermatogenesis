@@ -23,6 +23,6 @@ download.file()
 # Genes metdata
 download.file()
 ```
-  #### 2. Analysis. 
-  Load the Macaque ipython notebook (filename: Macaque_analysis.ipynb) and run the cells. <br>
+  #### 2. Analysis
+  Load the Macaque ipython notebook (filename: `Macaque_scRNASeq_Analysis.ipynb`) and run the cells. <br>
   **Note: Make sure the .ipynb and the downloaded files are in the same folder.**
