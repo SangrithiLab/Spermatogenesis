@@ -9,7 +9,7 @@ We utilized testis-specific scRNA-Seq data generated from three species (macaque
   2. Human datasets - (i) Hermann et al., 2018 (GEO: [GSE109037](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE109037)) and (ii) Guo et al., 2018 (GEO: [GSE120508](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE120508)).
   3. Mouse dataset - Ernst et al., 2019 (ArrayExpress: [E-MTAB-6946](https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-6946/)).
 
-The codes used to analyse all the datasets are provided as Jupyter Notebooks under the [Analysis](../master/HTML/) folder and the HTMLs of the notebooks are available under [HTML](../master/HTML/) folder.
+The codes used to analyse all the datasets are provided as Jupyter Notebooks under the [Analysis](../master/Analysis/) folder and the HTMLs of the notebooks are available under [HTML](../master/HTML/) folder.
 
 To reproduce the analysis performed on the macaque dataset, follow the steps below to get started:
   #### 1. Retrieving data 
