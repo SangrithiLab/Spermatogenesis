@@ -23,7 +23,7 @@ wget https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-8979/files/macaque_ce
 # cells metadata
 wget https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-8979/files/macaque_cells_metadata.txt
 
-# Genes metdata
+# genes metadata
 wget https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-8979/files/macaque_genes_metadata.txt
 ```
   #### 2. Analysis
