@@ -13,16 +13,16 @@ The codes used to analyse all the datasets are provided as Jupyter Notebooks und
 
 To reproduce the analysis performed on the macaque dataset, follow the steps below to get started:
   #### 1. Retrieving data 
-  ```{r}
-# Macaque raw matrix data
-download.file()
+  ```shellscript
+# Macaque cellranger matrix data
+wget https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-8979/files/macaque_cellranger_matrix.mtx
 
 # cells metadata
-download.file()
+wget https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-8979/files/macaque_cells_metadata.txt
 
 # Genes metdata
-download.file()
+wget https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-8979/files/macaque_genes_metadata.txt
 ```
   #### 2. Analysis
-  Load the Macaque ipython notebook (filename: `Macaque_scRNASeq_Analysis.ipynb`) and run the cells. <br>
+  Load the `Macaque_scRNASeq_Analysis-Reproduce.ipynb` file available under the [analysis](../master/Analysis/) folder and run the cells. <br>
   **Note: Make sure the .ipynb and the downloaded files are in the same folder.**
