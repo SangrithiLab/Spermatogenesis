@@ -15,13 +15,16 @@ To reproduce the analysis performed on the macaque dataset, follow the steps bel
   #### 1. Retrieving data 
   ```shellscript
 # Macaque cellranger matrix data
-wget https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-8979/files/macaque_cellranger_matrix.mtx
+wget https://www.ebi.ac.uk/arrayexpress/files/E-MTAB-8979/E-MTAB-8979.processed.1.zip
+unzip E-MTAB-8979.processed.1.zip
 
 # cells metadata
-wget https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-8979/files/macaque_cells_metadata.txt
+wget https://www.ebi.ac.uk/arrayexpress/files/E-MTAB-8979/E-MTAB-8979.processed.2.zip
+unzip E-MTAB-8979.processed.2.zip
 
 # genes metadata
-wget https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-8979/files/macaque_genes_metadata.txt
+wget https://www.ebi.ac.uk/arrayexpress/files/E-MTAB-8979/E-MTAB-8979.processed.3.zip
+unzip E-MTAB-8979.processed.3.zip
 ```
   #### 2. Analysis
   Load the `Macaque_scRNASeq_Analysis-Reproduce.ipynb` file available under the [analysis](../master/Analysis/) folder and run the cells. <br>
